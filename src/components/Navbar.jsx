@@ -10,10 +10,18 @@ const Navbar = () => {
       <img src={logo} alt="logo" />
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <FaLinkedin />
-      <FaGithub />
-      <FaSquareXTwitter />
-      <FaInstagram />
+      <a href="https://www.linkedin.com/in/ananth-chaitanya-3626261a4/" rel="noopener" target="_blank">
+        <FaLinkedin />
+      </a>
+      <a href="https://github.com/nitron18" rel="noopener" target="_blank">
+        <FaGithub />
+      </a>
+      <a href="https://x.com/Ananth740340829?t=H7aceVicYQGAYbzDRbT31w&s=09" rel="noopener" target="_blank">
+        <FaSquareXTwitter />
+      </a>
+      <a href="https://www.instagram.com/ananth.chaitanya?igsh=MTQyb2wzNWZ1OXhrNA==" rel="noopener" target="_blank">
+        <FaInstagram />
+      </a>
     </div>
   </nav>
 }
